@@ -1,0 +1,158 @@
+/* *{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+
+ 
+.Donation_Form
+{
+    justify-content: space-evenly;
+    margin: 45px 20px;
+    display: flex;
+    line-height: 40px;
+    background-image: url("https://i.im.ge/2022/10/01/1RsgUW.money-donation.png");
+    background-size: cover;
+}
+ 
+.Mdonation_image {
+    height: 600px;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+ 
+.Mdonation_Form{
+ 
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+}
+ 
+.Mdonation_Form input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+ 
+.Mdonation_line1{
+    padding-bottom: 20px;
+    display: flex;
+    /* -webkit-box-direction: ; */
+    width: 100%;
+    justify-content: space-between;
+    /* border: solid red 2px; */
+}
+ 
+ 
+.Mdonation_line2{
+    display: flex;
+    width: 400px;
+    padding-bottom: 20px;
+    justify-content: center;
+    justify-content: space-around;
+}
+ 
+.Mdonation_line3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+ 
+.Mdonation_address{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    line-height: 50px;
+    padding: 20px;
+}
+ 
+.Mdonation_address input
+{
+    margin: 20px;
+}
+ 
+.Mdonation_button{
+    border: 0px;
+    text-align: center;
+    background-color: orange;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+ 
+#Mamount{
+    width: 250px;
+    border-bottom: none;
+    font-size: 16px;
+}
+#amount{
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+ 
+#Mselection{
+    margin-top: 20px;
+}
+ 
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;}
+ 
+ 
+.Mheading{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.Mheading span{
+    font-size: 18px;
+    color: orangered;
+}
+ 
+.MQuote{
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 400px;
+    font-size: 25px;
+    left: 10%;
+}
+
+.amounts-value{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.btn-amount{
+    border: 2px solid RGB(216, 75, 56);
+    color: RGB(216, 75, 56);
+    font-weight: 600;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-amount:hover{
+    color: white !important;
+    background: RGB(216, 75, 56) !important;
+}
+
+.error_massage{
+    text-align: left;
+    width: 100%;
+}

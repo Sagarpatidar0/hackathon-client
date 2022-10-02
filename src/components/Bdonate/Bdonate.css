@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;  
+}
+
+.Bdonate{
+    background: wheat;
+}
+
+.DBloodImg h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.DBloodImg img {
+    height: 450px;
+}
+
+.DBloodForm {
+
+    background: white;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DonateBlood {
+    /* margin-top: 70px; */
+    padding-top: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.DBloodFormHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    background-image: linear-gradient(red, white);
+    border: 0px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 1px;
+    margin-top: -0.55px;
+
+}
+
+.DBloodFormHeader img {
+    height: 70px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.DBloodForm input,
+select {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 5px;
+    margin-bottom: 25px;
+    width: 150px;
+    outline: none;
+    text-align: center;
+
+}
+
+.DBloodForm input::placeholder {
+    text-align: center;
+
+}
+
+
+#BDaddressLine {
+    width: 81%;
+}
+
+.BDdropdowns {
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+}
+
+
+.BDdropdowns select {
+    width: 150px;
+}
+
+.BDAline1 {
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+}
+
+.BDAline2 {
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+}
+
+.BDAline3 {
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+}
+
+.BDsubmit {
+    width: 81%;
+    /* height: 30px; */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(4, 243, 4);
+    font-size: 15px;
+    /* border: black 2px solid ; */
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.BDonateGL p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.BDonateGL h1 {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 50px;
+    /* text-decoration:underline; */
+    font-family: 'Caveat', cursive;
+}
+
+.BDonateGL ul {
+    margin-top: 20px;
+    margin-left: 100px;
+    line-height: 90px;
+    /* font-family: 'Caveat', cursive; */
+}
+
+.BDonateGL{
+    margin-bottom: -14px;
+}
+
+.BDonateGL ul li {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Caveat', cursive;
+}
+
+.error_massage{
+    padding-left: 44px;
+}

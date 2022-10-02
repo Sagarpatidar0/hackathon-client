@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    padding: 10px 20px;
+    background-color: RGB(26, 36, 46);
+    font-weight: 600;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.navbar_links{
+    display: flex;
+}
+
+.navbar_links li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar_links li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.login a{
+    color: white;
+    text-decoration: none;
+    background-color: RGB(216, 75, 56);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;  
+}
+

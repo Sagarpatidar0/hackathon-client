@@ -1,0 +1,15 @@
+.NGOlogos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 200px;
+    justify-content: center;
+}
+
+.NGOlogos img{
+    padding: 20px;
+    height: 150px;
+}
+
+.LogosHeading{
+    text-align: center;
+}

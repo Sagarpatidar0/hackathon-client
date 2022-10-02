@@ -1,0 +1,83 @@
+.carousel-item{
+    width: 100vw;
+    height: 90vh;
+}
+.carousel-item img{
+    height: 115%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    text-align: left;
+}
+
+.carousel-caption h1{
+    margin-top: 15px;
+    font-weight: 700;
+}
+.tag-line{
+    margin-top: 15px;
+
+}
+
+.help-box{
+    background: RGB(216, 75, 56);
+    color: black;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.donate-boxes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* position: relative; */
+}
+.donate-box{
+    height: 300px;
+    width: 400px;
+    margin-top: -130px;
+    margin-bottom: 150px;
+    z-index: 2;
+    color: white;
+    padding: 35px;
+}
+
+#donate-box-1{
+background: RGB(26, 36, 46);
+}
+
+#donate-box-2{
+background:RGB(174, 150, 89);
+
+}
+#donate-box-3{
+background: RGB(216, 75, 56);
+}
+
+.btn-donate-now{
+    border: 2px solid white;
+    color: white ;
+    font-weight: 600;
+    border-radius: 0;
+}
+.btn-donate-now a{
+    text-decoration:none;
+    color:white;
+}
+
+.btn-donate-now:hover{
+    background: RGB(216, 75, 56) !important;
+}
+
+.donate-box-h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#btn-donate-last:hover{
+background: RGB(26, 36, 46) !important;
+}

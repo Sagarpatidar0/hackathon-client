@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Josefin+Sans:wght@500;700&family=Open+Sans:wght@400;500&display=swap');
+
+.ourmission{
+    display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 80px;
+}
+
+.ourmission img{
+    height: 400px;
+}
+
+.content_mission{
+    width: 750px;
+    padding: 70px 60px;
+    background: #d84b38;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Caveat', cursive !important;
+}
+
+.content_mission h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.ourmission{
+    background-color: #d84b38;
+    height: 450px;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.NGOlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.NGOlogin input
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    outline: none;
+
+}
+
+.NGOloginContainer{
+    background: rgb(227, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.NGOloginHeading
+{
+    text-align: center;
+    margin-bottom: 35px;
+
+    /* position: absolute; */
+    /* top: 1px; */
+
+}
+
+.NGOloginMid{
+    border: 2px solid;
+    padding: 40px 10px;
+    background: white;
+}
+
+
+.NGOlogin button{
+
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+
+.NGOloginRd{
+    text-align: center;
+    margin-top: 50px;
+}
